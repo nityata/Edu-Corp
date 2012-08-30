@@ -1,0 +1,18 @@
+What if the student could be given news as and when the corporate posted jobs based on their interests. What if the student could apply for the jobs and receive news of the decision. What if they could receive feedback on their work from the corporate/faculty by not having to commute and the given positive that their work and accolades can be viewed by others.
+
+Our project aims at designing an application that has the following features:
+
+1.	Wall updates on important news from corporate and faculty.
+2.	Student applications to Jobs, Projects, Classes and consequent news updates.
+3.	Work progress monitoring for corporate internships.
+4.	Commenting and recommending on others’ work
+
+
+The workflows implemented by Edu-Corp are as follows:
+Interactions between Corporate and Student
+•	Result of job application should be posted on student’s wall.
+•	Student can view other student’s/corp’s walls/projects/jobs/testimonials.
+•	Student/Corp can comment and Corp can recommend on projects, testimonials.
+•	Student job application and subsequent notification on corp wall.
+•	Product advertisement on student’s wall.
+•	Notifications on student’s wall for comments, recommendations.
