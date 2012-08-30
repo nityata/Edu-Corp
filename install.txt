@@ -1,0 +1,5 @@
+If you are running server on localhost and using any framework (using WAMP as example), upload the "corp", "student", "ssPrac" folders to the "www" (or its equivalent).
+
+Create a folder called "upload" in "www".
+
+Import "ss2.sql" to a database called "ss2" (Create it first). Data has been pre-loaded into "users" table. Either change username and password or use the same to login to the application.
