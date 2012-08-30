@@ -1,0 +1,106 @@
+#doc
+{
+	position: absolute;
+	left:50px;
+	top:0px;
+	color:white;
+	padding: 10px;
+	z-index: 300;
+}
+
+
+#bkk
+{
+	color:black;
+	position:absolute;
+	top:320px;
+	left:260px;
+}
+
+#bkk2
+{
+	color:black;
+	position:absolute;
+	top:320px;
+	left:300px;
+}
+
+#percent, #work, #todo
+{
+	float:left;
+}
+
+#percent
+{
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	font-size: 20px;
+	position: relative;
+	top:100px;
+	padding:5px;
+	left:20px;
+	width: 100px;
+	height:100px;
+	text-align:center;
+}
+
+#percent span
+{
+	font-size: 10px;
+}
+
+#work
+{
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	position: relative;
+	padding:5px;
+	left:30px;
+	top:30px;
+	width: 130px;
+	height:200px;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+
+	-moz-box-shadow:2px 2px 0 #c2c2c2;
+	-webkit-box-shadow:2px 2px 0 #c2c2c2;
+	box-shadow:2px 2px 0 #c2c2c2;
+}
+
+#todo
+{
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	position: relative;
+	padding:5px;
+	left:40px;
+	top:30px;
+	width: 130px;
+	height:200px;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+
+	-moz-box-shadow:2px 2px 0 #c2c2c2;
+	-webkit-box-shadow:2px 2px 0 #c2c2c2;
+	box-shadow:2px 2px 0 #c2c2c2;
+}
+
+#bkk a
+{
+	z-index: 300;
+}
+
+#uploadForm
+{
+	color:black;
+	position:absolute;
+	top:304px;
+	left:600px;
+}

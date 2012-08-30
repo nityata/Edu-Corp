@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>JQUERY SLIDES</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	</head>
+	<body>
+		<ul class="insert-links">
+			<li>HI-1</li>
+		</ul>
+		<script type="text/javascript">
+			$('.insert-links').append('<li style="display: none;" class="new-link" name="link[]">HI-2</li>')
+			$('.insert-links').find(".new-link:last").slideDown("fast");
+		</script>
+	</body>
+</html>

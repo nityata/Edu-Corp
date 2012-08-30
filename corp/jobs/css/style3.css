@@ -1,0 +1,30 @@
+.content
+{
+	color: black;
+}
+.panel{
+	width: 920px;
+	height:350px;
+	position: relative;
+	top:-170px;
+	background-color:#efefef;
+	margin-left: -200%;
+	z-index:2;
+	-webkit-transition: all 1.0s ease-in-out;
+	-moz-transition: all 1.0s ease-in-out;
+	-o-transition: all 1.0s ease-in-out;
+	-ms-transition: all 1.0s ease-in-out;
+	transition: all 1.0s ease-in-out;
+}
+.panel:target{
+	margin-left: 0%;
+	background-color:#efefef;
+}
+
+
+
+#resume
+{
+	position: relative;
+	top:-536px;
+}

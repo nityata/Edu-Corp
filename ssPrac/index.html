@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="Ajaxfileupload-jquery-1.3.2.js" ></script>
+		<script type="text/javascript" src="ajaxupload.3.5.js" ></script>
+		<title> FILE</title>
+		<script type="text/javascript" >
+			$(function(){
+				var btnUpload=$('#me');
+				var mestatus=$('#mestatus');
+				var files=$('#files');
+				new AjaxUpload(btnUpload, {
+					action: 'uploadPhoto.php',
+					name: 'uploadfile',
+					onSubmit: function(file, ext){
+						 if (! (ext && /^(jpg|png|jpeg|gif)$/.test(ext))){ 
+		                    // extension is not allowed 
+							mestatus.text('Only JPG, PNG or GIF files are allowed');
+							return false;
+						}
+						mestatus.html('<img src="ajax-loader.gif" height="16" width="16">');
+					},
+					onComplete: function(file, response){
+						//On completion clear the status
+						mestatus.text('Photo Uploaded Sucessfully!');
+						//On completion clear the status
+						files.html('');
+						//Add uploaded file to list
+						if(response==="success"){
+							$('<li></li>').appendTo('#files').html('<img src="images/webinfopedia_'+file+'" alt="" height="120" width="130" /><br />').addClass('success');
+						} else{
+							$('<li></li>').appendTo('#files').text(file).addClass('error');
+						}
+					}
+				});
+				
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div id="me" class="styleall" style=" cursor:pointer;"><span style=" cursor:pointer; font-family:Verdana, Geneva, sans-serif; font-size:9px;"><span style=" cursor:pointer;">Click Here To Upload Profile Photo</span></span></div><span id="mestatus" ></span>
+	</body>
+</html>

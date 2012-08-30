@@ -1,0 +1,12 @@
+.del
+{
+	text-align:right;
+	position:relative;
+	top:-12px;
+	font-size: 15px;
+}
+
+#body ul
+{
+	font-family:"Courier New";
+}

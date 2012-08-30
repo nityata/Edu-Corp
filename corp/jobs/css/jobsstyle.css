@@ -1,0 +1,150 @@
+.del
+{
+	position:absolute;
+	left:250px;
+	font-size: 15px;
+}
+
+#body ul
+{
+	font-family:"Courier New";
+}
+
+#body ul li
+{
+	padding:5px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+#left
+{
+	float:left;
+}
+
+#right
+{
+	float:right;
+}
+
+#abstract
+{
+	width:590px;
+	height: 250px;
+	margin: 5px;
+	border-style:solid;
+	border-color:gray;
+	position:relative;
+	left:-90px;
+}
+
+#prerequisite
+{
+	width:590px;
+	height: 50px;
+	margin: 5px;
+	border-style:solid;
+	border-color:gray;
+	position:relative;
+	left:-90px;
+}
+
+#tags
+{
+	width: 300px;
+	height:150px;
+	position:relative;
+	top: -328px;
+	margin:5px;	
+	border-style:solid;
+	border-color:gray;
+}
+
+#deadline
+{
+	width: 300px;
+	height:151px;
+	position:relative;
+	top: -327px;
+	margin:5px;
+	border-style:solid;
+	border-color:gray;
+}
+
+#applicant
+{
+	padding:5px;
+	list-style-type: none;
+}
+
+.applinks
+{
+	padding:2px;
+	text-align: right;
+	position: absolute;
+	left:650px;
+}
+
+.appl
+{
+	padding:5px;
+	color:blue;
+	font-family:"Arial Narrow";
+	font-size:medium;
+	text-align:justify;
+	line-height:normal;
+	font-weight:bold;
+	height:300px;
+}
+
+#back
+{
+	position:relative;
+	left:400px;
+	font-family:"Comic Sans MS";
+	color:black;
+}
+
+
+#bk
+{
+	position:relative;
+	left:400px;
+	top:250px;
+	font-family:"Comic Sans MS";
+	color:#250517;
+}
+
+.jobInfo
+{
+	padding:5px;
+	text-align:justify;
+	font-family:"Lucida Sans";
+	background-color:blue;
+	color:white;
+}
+
+.prer
+{
+	background-color:blue;
+	position: relative;
+	top: -5px;
+	color:white;
+}
+
+#bck
+{
+	position:relative;
+	top:-25px;
+	left:400px;
+}
+
+
+.heads
+{
+	text-align:center;
+	font-family:"Lucida Console";
+}

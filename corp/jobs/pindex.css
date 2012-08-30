@@ -1,0 +1,67 @@
+body
+{
+}
+
+.prj
+{
+	background-color: blue;
+	color:white;
+	font-family:"Arial Narrow";
+	text-align: center;
+	width:400px;
+	text-overflow:ellipsis;
+}
+
+#commentarea
+{
+	width:500px;
+	height:225px;
+	float:right;
+	display:none;
+	overflow-y: auto;
+	background:url('./bg.jpg') #f2f2f2;
+}
+
+
+#commentarea a
+{
+	text-decoration: none;
+	float:right;
+}
+
+.commentLabel
+{
+	text-decoration:underline;
+	font-family:"Comic Sans MS";
+	cursor:pointer;
+	text-overflow:ellipsis;
+}
+
+.files a
+{
+	color:white;
+	background-color:#98AFC7;
+}
+
+.files a:visited
+{
+	color:white;
+}
+
+#recoarea
+{
+	width:500px;
+	height:225px;
+	float:right;
+	display:none;
+	overflow-y: auto;
+	background:url('./bg.jpg') #f2f2f2;
+	position:relative;
+	top:250px;
+}
+
+#recoarea a
+{
+	text-decoration: none;
+	float:right;
+}

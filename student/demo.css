@@ -1,0 +1,14 @@
+
+/* General Demo Style */
+
+.container{
+	position: relative;
+}
+
+
+/* Header Style */
+
+.rw-sentence-IE{
+	display: none;
+	padding: 30px;
+}

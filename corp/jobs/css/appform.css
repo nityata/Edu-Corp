@@ -1,0 +1,78 @@
+#application
+{
+	position: relative;
+	top:20px;
+}
+
+#applabel
+{
+	padding:5px;
+}
+
+#me2
+{
+	position: relative;
+	top: 109px;
+}
+
+#mestatus2
+{
+	position: relative;
+	top:107px;
+	left:5px;
+}
+
+.apply_button{
+	 width: 150px;
+	 height: 42px;
+	 background-color: #6D6968;
+	 -moz-border-radius: 10px;
+	 -webkit-border-radius: 10px;
+	 margin: 15px auto 0px auto;
+	 text-align: center;
+	 cursor: pointer;
+	 clear: both;
+	 position: relative;
+	 left:300px;
+	 top:10px;
+	}
+	
+.apply_button a
+{
+	position: relative;
+	top: 10px;
+	color:white;
+}
+
+.appright
+{
+	border-style:solid;
+	border-color:black;
+	float:right;
+	position: relative;
+	top: -300px;	
+}
+
+#AppDocs
+{
+	
+	float:right;
+	position: relative;
+	top: -300px;	
+	width: 200px;
+	left:-20px;
+	font-size: 12px;
+}
+
+label
+{
+	padding:5px;
+}
+
+
+#backlink
+{
+	position: relative;
+	left: 350px;
+	top: -10px;
+}

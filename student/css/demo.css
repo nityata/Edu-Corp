@@ -1,0 +1,22 @@
+/*@import url('reset.css');*/
+
+.clr{
+	clear:both;
+}
+.wrapper{
+	width:785px;
+	margin:30px auto;
+}
+
+
+.content{
+	width:250px;
+	float:right;
+	font-family: 'PT Serif Caption', Georgia, serif;
+}
+.content p{
+	padding:10px 0px;
+	color:#8899a2;
+	font-size:16px;
+	
+}

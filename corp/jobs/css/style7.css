@@ -1,0 +1,61 @@
+.content
+{
+	color: black;
+}
+.panel{
+	width: 920px;
+	height:350px;
+	background-color:#efefef;
+	margin-left: -200%;
+	z-index:2;
+	-webkit-transition: all 1.0s ease-in-out;
+	-moz-transition: all 1.0s ease-in-out;
+	-o-transition: all 1.0s ease-in-out;
+	-ms-transition: all 1.0s ease-in-out;
+	transition: all 1.0s ease-in-out;
+}
+.panel:target{
+	margin-left: 0%;
+	background-color:#efefef;
+}
+
+#edit
+{
+	position:relative;
+	top:-466px;
+}
+
+#interns
+{
+	position:relative;
+	top:-750px;
+}
+
+/*.win.gecko .panel {
+  position: relative;
+	top:-200px;
+}*/
+
+#application
+{
+	position:relative;
+	top:-100px;
+}
+
+#app
+{
+	position:relative;
+	top:0px;
+}
+
+#apply
+{
+	position: relative;
+	top:-366px;
+}
+
+#comm
+{
+	position: relative;
+	top:-1082px;
+}
